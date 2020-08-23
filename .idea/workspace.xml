@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9276bebb-aa0e-40e2-933e-4e6e3f2ee6c1" name="Default Changelist" comment="" />
+    <list default="true" id="9276bebb-aa0e-40e2-933e-4e6e3f2ee6c1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/.user.ini" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +59,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/twig-bundle" />
       <path value="$PROJECT_DIR$/vendor/symfony/twig-bridge" />
       <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/apache-pack" />
     </include_path>
   </component>
   <component name="ProjectId" id="1gUnTQYRdkeVgD1vCCLhtVHqjfM" />
@@ -84,7 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598178045074</updated>
       <workItem from="1598178046105" duration="387000" />
-      <workItem from="1598181850732" duration="10245000" />
+      <workItem from="1598181850732" duration="10592000" />
     </task>
     <servers />
   </component>
