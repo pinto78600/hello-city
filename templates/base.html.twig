@@ -1,12 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <meta charset="UTF-8">
-        <title>{% block title %}Hello City!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
+        <meta name="'viewport" content="with=device-with, initial-scale=1, shrink-to-fit=no">
+        <title>{% block title %}Hello City{% endblock %}</title>
+        {% block stylesheets %}
+            <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+        {% endblock %}
     </head>
-    <body>
-        {% block body %}{% endblock %}
+    <body class="flex flex-col justify-between items-center min-h-screen">
+        <main class="my-6 flex flex-col items-center justify-center">
+            {% block body %}{% endblock %}
+        </main>
         {% block javascripts %}{% endblock %}
+        <footer class="my-6">
+            <p class="text-gray-400">
+                &copy; Copyright {{ 'now'|date('Y') }} &middot;
+                <a href="{{ path('app_about') }}"
+                class="text-indigo-500 hover:text-indigo-600 underline">About Us
+                </a>
+            </p>
+        </footer>
     </body>
 </html>
